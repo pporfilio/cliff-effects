@@ -1,5 +1,4 @@
 /*
-
 HOW-TO
 IMPORTANT: Please don’t change the text in here.
 
@@ -7,7 +6,7 @@ The text that needs to be translated is in the English snippets document.
 
 After you’ve read this, only translate dark bold text that’s below this point.
 
-If the Document is Pink: It means that something in it is out of date. That means that something major changed in the English version and hasn’t been updated here. You can find the snippet that’s old because its name will look like this: sampleSnippetName_v0.0
+If the Document is Pink: It means that something in it is out of date. That means that something major changed in the English version and hasn’t been updated here. You can find the snippet that’s old because its name will look like this: sampleSnippetName_v0.0.
 
 Fixing old snippets: Find that same name in the English snippets document and write a new translation for it in this document. After that’s all done, change the name that’s in red to match the name in the document of English snippets.
 
@@ -20,14 +19,14 @@ If you’ve changed stuff, but the text style doesn’t look right: Don’t worr
 
 export default {
 
-  version:  `0.1`,
-  langName: `Español`,   // Change this to the name of your language (written in your language)
-  langCode: `es`,
+  version:  `2.1`,
+  langName: `Français`,   // Change this to the name of your language (written in your language)
+  langCode: `en`,
 
   header: {},
 
   footer: {
-    'header_v0':    `Cliff Effects Herriamienta`,
+    'header_v0':    `Cliff Effects Tool`,
     'cfbCredit_v0': [
       `Made with `,
       { name: `__heartIcon__` },
@@ -36,11 +35,11 @@ export default {
   },
 
   homePage: {
-    'appName_v0':          `Cliff Effects Herriamienta`,
-    'prototypeNote_v0':    `GUIDANCE PROTOYPE*`,
-    'cautionaryNote_v1':   `*Esto es una prototypa y no debe usarse para tomar decisiones financieras`,
-    'toFirstInputPage_v1': `Empieza`,
-    'toAboutPage_v1':      `Ayuda Mas`,
+    'appName_v0':          `Cliff Effects Tool`,
+    'prototypeNote_v0':    `GUIDANCE PROTOTYPE*`,
+    'cautionaryNote_v0':   `*This is a prototype and should not be used to make financial decisions`,
+    'toFirstInputPage_v0': `Get Started`,
+    'toAboutPage_v0':      `Learn More`,
   },
 
   aboutPage: {
@@ -54,7 +53,7 @@ export default {
       },
       ` This application is a minimum viable product. It should not be used as the sole tool to understand a client's SNAP or Section 8 financial situation, or for any other public assistance program.`,
     ],
-    'whatFor_v0': [
+    'whatFor_v2': [
       `This tool can help show how a change in income affects how much someone receives in public assistance from SNAP (Supplemental Nutrition Assistance Program) and Section 8 Housing Voucher benefits. It was designed for the case managers at `,
       { name: `__projectHope__` },
       ` with the aim of helping to predict changes in their clients' benefits.`,
@@ -115,11 +114,11 @@ export default {
     'newClient_v0': `New Client`,
 
     stepBar: {
-      'currentBenefits_v1': `Beneficios Actuales`,
-      'household_v1':       `Hogar`,
-      'currentIncome_v1':   `Ingreso`,
-      'currentExpenses_v1': `Gastos`,
-      'predictions_v1':     `Predictions`,
+      'currentBenefits_v0': `Current Benefits`,
+      'household_v0':       `Household`,
+      'currentIncome_v0':   `Income`,
+      'currentExpenses_v0': `Expenses`,
+      'predictions_v0':     `Predictions`,
     },
 
     formHelpers: {
@@ -133,13 +132,13 @@ export default {
     currentBenefits: {
       'currentBenefits_v0': `Current Benefits`,
       'selectBenefits_v0':  `Select the benefits you currently receive`,
-      'hasSection8_v1': {
-        label: `Tiene Section 8 Housing?`,
-        hint:  `Section 8 dispone asistencia de vivienda de alquiler.`,
+      'hasSection8_v0': {
+        label: `Do you have Section 8 Housing?`,
+        hint:  `Section 8 provides rental housing assistance.`,
       },
-      'hasSnap_v1': {
-        label: `Tiene SNAP?`,
-        hint:  `SNAP dispone asistencia con comprando comida`,
+      'hasSnap_v0': {
+        label: `Do you have SNAP?`,
+        hint:  `SNAP provides assistance with buying food`,
       },
     },
 
@@ -163,49 +162,49 @@ export default {
       'title_v0':                  `Current Household Income`,
       'clarifier_v0':              `Income that you collected in the past 12 months.`,
       'explainSnapCalculation_v0': `This prototype will attempt to make its own calculations for SNAP amount`,
-      'earnedIncome_v1':           {
-        label: `Ingreso ganado`,
-        hint:  `Ingreso ganado es cuantos su y su familia ganiaron de trabajando`,
+      'earnedIncome_v0':           {
+        label: `Earned income`,
+        hint:  `Earned income is how much you and your family get paid from working`,
       },
       'TAFDC_v0': {
         label: `TAFDC`,
-        hint:  `Transitional Aid to Families with Dependent Children dispone asistencia termino corto financiera a familias con hijos`,
+        hint:  `Transitional Aid to Families with Dependent Children provides short-term financial assistance to families with children`,
       },
       'SSI_v0': {
         label: `SSI`,
-        hint:  `Supplemental Security Income es una programa federal que dispone financial y cuidado de salud asistencia por personas de 65 años y mas, o personas who are blind or disabled`,
+        hint:  `Supplemental Security Income is a federal program that provides financial and health care assistance to people 65 and over, or people who are blind or disabled`,
       },
-      'SSDI_v1': {
+      'SSDI_v0': {
         label: `SSDI`,
-        hint:  `Social Security Disability Income es una programa federal para ayudar personas con disabilities`,
+        hint:  `Social Security Disability Income is a federal program to help people with disabilities`,
       },
-      'childSupport_v1': {
-        label: `Manutención de los hijos recibio`,
-        hint:  `Manutención de los hijos es dinero recibio de una marido pasado para ayudar su hijo`,
+      'childSupport_v0': {
+        label: `Child support recieved`,
+        hint:  `Child support is money paid to you by a former spouse to help your child`,
       },
-      'unemployment_v1': {
-        label: `Desempleado`,
-        hint:  `Benfeicios desempleado dispone ingresos a personas he sido despedido`,
+      'unemployment_v0': {
+        label: `Unemployment`,
+        hint:  `Unemployment benefits provide income to people who have been laid off`,
       },
-      'workersComp_v1': {
-        label: `Trabajadore's compensación`,
-        hint:  `Worker's compensación dispone asistencia para personas que he sido herido en trabajo`,
+      'workersComp_v0': {
+        label: `Worker's compensation`,
+        hint:  `Worker's Compensation provides assistance for people who have been injured on the job`,
       },
-      'pension_v1': {
+      'pension_v0': {
         label: `Pension`,
-        hint:  `Un pension dispone ingresos a jubilados, usualamente de sus empleadores pasados`,
+        hint:  `A pension provides income to retirees, usually from their former employers`,
       },
-      'socialSecurity_v1': {
+      'socialSecurity_v0': {
         label: `Social security`,
-        hint:  `Social Security es una programa federal que dispone asistencia a jubilados`,
+        hint:  `Social Security is a federal program that provides assistance to retirees`,
       },
-      'alimony_v1': {
-        label: `Pension alimenticia`,
-        hint:  `Alimenticia es dinero pago de un marido a el otra despues un divorcio`,
+      'alimony_v0': {
+        label: `Alimony`,
+        hint:  `Alimony is money paid by one spouse to the other after a divorce`,
       },
-      'otherIncome_v1': {
-        label: `Otros ingresos`,
-        hint:  `Por favor sume ingreso puede haber ganado desde otros fuentes que no fueron listados anteriormente`,
+      'otherIncome_v0': {
+        label: `Other income`,
+        hint:  `Please note income you may have from sources that are not listed above`,
       },
     },
 

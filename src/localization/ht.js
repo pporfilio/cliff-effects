@@ -1,5 +1,4 @@
 /*
-
 HOW-TO
 IMPORTANT: Please don’t change the text in here.
 
@@ -7,7 +6,7 @@ The text that needs to be translated is in the English snippets document.
 
 After you’ve read this, only translate dark bold text that’s below this point.
 
-If the Document is Pink: It means that something in it is out of date. That means that something major changed in the English version and hasn’t been updated here. You can find the snippet that’s old because its name will look like this: sampleSnippetName_v0.0
+If the Document is Pink: It means that something in it is out of date. That means that something major changed in the English version and hasn’t been updated here. You can find the snippet that’s old because its name will look like this: sampleSnippetName_v0.0.
 
 Fixing old snippets: Find that same name in the English snippets document and write a new translation for it in this document. After that’s all done, change the name that’s in red to match the name in the document of English snippets.
 
@@ -20,14 +19,14 @@ If you’ve changed stuff, but the text style doesn’t look right: Don’t worr
 
 export default {
 
-  version:  `0.1`,
-  langName: `Español`,   // Change this to the name of your language (written in your language)
-  langCode: `es`,
+  version:  `2.1`,
+  langName: `Kreyol`,   // Change this to the name of your language (written in your language)
+  langCode: `ht`,
 
   header: {},
 
   footer: {
-    'header_v0':    `Cliff Effects Herriamienta`,
+    'header_v1':    `Cliff Effects Tool`,
     'cfbCredit_v0': [
       `Made with `,
       { name: `__heartIcon__` },
@@ -36,11 +35,11 @@ export default {
   },
 
   homePage: {
-    'appName_v0':          `Cliff Effects Herriamienta`,
+    'appName_v0':          `Cliff Effects Tool`,
     'prototypeNote_v0':    `GUIDANCE PROTOYPE*`,
-    'cautionaryNote_v1':   `*Esto es una prototypa y no debe usarse para tomar decisiones financieras`,
-    'toFirstInputPage_v1': `Empieza`,
-    'toAboutPage_v1':      `Ayuda Mas`,
+    'cautionaryNote_v0':   `*This is a prototype and should not be used to make financial decisions`,
+    'toFirstInputPage_v0': `Get Started`,
+    'toAboutPage_v0':      `Learn More`,
   },
 
   aboutPage: {
@@ -52,26 +51,32 @@ export default {
         name: `__importantNote__`,
         text: `Important Note:`,
       },
-      ` This application is a minimum viable product. It should not be used as the sole tool to understand a client's SNAP or Section 8 financial situation, or for any other public assistance program.`,
+      ` Aplikasyon sa a se yon minimom aktif pwodwi. Li pa ta sipoze itilize kom sel enstriman pou konprann yon kliyan SNAP ou Seksyon 8 sitiyasyon finansye, ou pou lot pwogram asistans piblik`,
     ],
     'whatFor_v0': [
-      `This tool can help show how a change in income affects how much someone receives in public assistance from SNAP (Supplemental Nutrition Assistance Program) and Section 8 Housing Voucher benefits. It was designed for the case managers at `,
+      `Enstriman ka ede montre koman yon chanjman nan revni ka afekte konbyen yon moun resevwa nan asistans piblik de SNAP(Pwogram siplemante asistans nitrisyon) e Seksyon 8    benefis kay`,
       { name: `__projectHope__` },
-      ` with the aim of helping to predict changes in their clients' benefits.`,
+      `avek objektif pou ede nou we davans chanjman nan benefis kliyan yo.`,
     ],
 
-    'whyHeader_v0': `Why is this tool important?`,
-    'why1_v0':      `A cliff effect occurs when a slight change in a household’s circumstances - say, a slight pay raise - disproportionately lowers their benefits. The household is working to increase what they earn, but they end up with a net loss that actually puts them further behind. These cliff effects prevent many families from actually getting off of public assistance programs.`,
-    'why2_v0': `Cliff effects are also difficult to predict. The interactions between income, household size, many other criteria, as well as the effects of the programs themselves impact each other in unexpected ways. We're exploring ways to deal with this issue of complexity and help families better understand and predict their situation.`,
+    'whyHeader_v0': `Poukisa enstriman sa a enpotan?`,
+    'why1_v0':      `Yon efe de klif rive le gen yon leje chanjman nan sikonstans lakay la- pa examp, yon leje ogmantasyon kob- ap fe benefis yo diminy de fason ki pa menm . Kay la ap travay pou ogmante lajan yo fe a, men yo fini pa pedi nan montan final la sa ki fe yo fe bak pi plis. Efe de klif  sa yo anpeche anpil fanmiy soti nan pwogram asistans piblik`,
+    
 
-    'videoLinkText_v0':    `Two-minute video describing cliff effects`,
-    'quantLinkText_v0':    `Quantitative scenarios demonstrating cliff effects`,
-    'benefitsLinkText_v0': `Breakdown of different benefits offered in MA`,
 
-    'howToUseHeader_v0': `How do I use this tool?`,
-    'howtoUse_v0':       `Go step-by-step to add information about a client's current benefits, household, income, and other relevant information. This information will be used to predict the client's approximate benefit amount. When you reach the end, change the “Future Income” amount to see how a change in earned income will cause a change in benefit amount. Currently, the SNAP and Section 8 Housing Voucher programs are both available. Note that predictions may not directly match up with a client’s current benefit amount. The app’s focus is the amount of change that occurs in benefits when there are changes in earned income.`,
-    'howToUseNote_v0': [
-      `Please note that this app does not store user data, so `,
+
+'why2_v1': `Efe de klif yo difisil pou prevwa, Enteraksyon ant revni, kantite moun ki nan kay la, anpil lot krite,anplis efe pwogram yo yo menm ki afekte yonn lot nan fason ke nou pa atann. Nou ap chache fason pou nou fe fas ak komplex pwoblem  sa a e ede fanmiy yo konprann e prevwa sitiyasyon yo.`,
+
+    'videoLinkText_v1':    `2 minit videyo ki pale de cliff effects`,
+    'quantLinkText_v1':    `Kantitativ prezantasyon ki demontre cliff effects`,
+    'benefitsLinkText_v0': `Detay de diferant benefis ki ofri nan MA’, ’
+
+`,
+'howToUseHeader_v1':` Koman mwen ka itilize enstriman sa a?`,
+
+    'howtoUse_v1':       `Ale etap pa etap pou adisyone enfomasyon konsenan  aktyel benefis kliyan an,kay la, revni, e lot enfomasyon.Enfomasyon sa a ap sevi pou prevwa apepre montan ke kliyan an ap resevwa. Le ou fini, chanje “ fiti revni” an pou we koman chanjman nan revni an ka koz yon chanjman nan kantiti benefis lan. Aktyelman, SNAP e Seksyon 8 sibvansyon pwogram kay yo disponib. Note ke previzyon yo ka pa direkteman korespond avek aktyel montan benefis lan. Fokis aplikasyon an se kantite chanjman ki fet nan benefis le gen chanjman nan revni ke moun yo genyen.`,
+    'howToUseNote_v1': [
+      `Tanpri pran note ke aplikasyon sa a pa kenbe data `,
       {
         name: `__refreshWarning__`,
         text: `if you refresh the page the data you've entered will be lost.`,
@@ -81,7 +86,7 @@ export default {
 
     'whoMadeThisHeader_v0': `Who is behind this?`,
     'whoMadeThis1_v0':      [
-      `This application is part of a project made possible by a Boston Foundation Open Door Grant to the University of Massachusetts Boston's `,
+      `This application is part of a project made pssible by a Boston Foundation Open Door Grant to the University of Massachusetts Boston's `,
       { name: `__centerForSocialPolicy__` },
       `, in close partnership with `,
       { name: `__projectHope__` },
@@ -115,11 +120,11 @@ export default {
     'newClient_v0': `New Client`,
 
     stepBar: {
-      'currentBenefits_v1': `Beneficios Actuales`,
-      'household_v1':       `Hogar`,
-      'currentIncome_v1':   `Ingreso`,
-      'currentExpenses_v1': `Gastos`,
-      'predictions_v1':     `Predictions`,
+      'currentBenefits_v0': `Current Benefits`,
+      'household_v0':       `Household`,
+      'currentIncome_v0':   `Income`,
+      'currentExpenses_v0': `Expenses`,
+      'predictions_v0':     `Predictions`,
     },
 
     formHelpers: {
@@ -133,13 +138,13 @@ export default {
     currentBenefits: {
       'currentBenefits_v0': `Current Benefits`,
       'selectBenefits_v0':  `Select the benefits you currently receive`,
-      'hasSection8_v1': {
-        label: `Tiene Section 8 Housing?`,
-        hint:  `Section 8 dispone asistencia de vivienda de alquiler.`,
+      'hasSection8_v0': {
+        label: `Do you have Section 8 Housing?`,
+        hint:  `Section 8 provides rental housing assistance.`,
       },
-      'hasSnap_v1': {
-        label: `Tiene SNAP?`,
-        hint:  `SNAP dispone asistencia con comprando comida`,
+      'hasSnap_v0': {
+        label: `Do you have SNAP?`,
+        hint:  `SNAP provides assistance with buying food`,
       },
     },
 
@@ -163,49 +168,49 @@ export default {
       'title_v0':                  `Current Household Income`,
       'clarifier_v0':              `Income that you collected in the past 12 months.`,
       'explainSnapCalculation_v0': `This prototype will attempt to make its own calculations for SNAP amount`,
-      'earnedIncome_v1':           {
-        label: `Ingreso ganado`,
-        hint:  `Ingreso ganado es cuantos su y su familia ganiaron de trabajando`,
+      'earnedIncome_v0':           {
+        label: `Earned income`,
+        hint:  `Earned income is how much you and your family get paid from working`,
       },
       'TAFDC_v0': {
         label: `TAFDC`,
-        hint:  `Transitional Aid to Families with Dependent Children dispone asistencia termino corto financiera a familias con hijos`,
+        hint:  `Transitional Aid to Families with Dependent Children provides short-term financial assistance to families with children`,
       },
       'SSI_v0': {
         label: `SSI`,
-        hint:  `Supplemental Security Income es una programa federal que dispone financial y cuidado de salud asistencia por personas de 65 años y mas, o personas who are blind or disabled`,
+        hint:  `Supplemental Security Income is a federal program that provides financial and health care assistance to people 65 and over, or people who are blind or disabled`,
       },
-      'SSDI_v1': {
+      'SSDI_v0': {
         label: `SSDI`,
-        hint:  `Social Security Disability Income es una programa federal para ayudar personas con disabilities`,
+        hint:  `Social Security Disability Income is a federal program to help people with disabilities`,
       },
-      'childSupport_v1': {
-        label: `Manutención de los hijos recibio`,
-        hint:  `Manutención de los hijos es dinero recibio de una marido pasado para ayudar su hijo`,
+      'childSupport_v0': {
+        label: `Child support recieved`,
+        hint:  `Child support is money paid to you by a former spouse to help your child`,
       },
-      'unemployment_v1': {
-        label: `Desempleado`,
-        hint:  `Benfeicios desempleado dispone ingresos a personas he sido despedido`,
+      'unemployment_v0': {
+        label: `Unemployment`,
+        hint:  `Unemployment benefits provide income to people who have been laid off`,
       },
-      'workersComp_v1': {
-        label: `Trabajadore's compensación`,
-        hint:  `Worker's compensación dispone asistencia para personas que he sido herido en trabajo`,
+      'workersComp_v0': {
+        label: `Worker's compensation`,
+        hint:  `Worker's Compensation provides assistance for people who have been injured on the job`,
       },
-      'pension_v1': {
+      'pension_v0': {
         label: `Pension`,
-        hint:  `Un pension dispone ingresos a jubilados, usualamente de sus empleadores pasados`,
+        hint:  `A pension provides income to retirees, usually from their former employers`,
       },
-      'socialSecurity_v1': {
+      'socialSecurity_v0': {
         label: `Social security`,
-        hint:  `Social Security es una programa federal que dispone asistencia a jubilados`,
+        hint:  `Social Security is a federal program that provides assistance to retirees`,
       },
-      'alimony_v1': {
-        label: `Pension alimenticia`,
-        hint:  `Alimenticia es dinero pago de un marido a el otra despues un divorcio`,
+      'alimony_v0': {
+        label: `Alimony`,
+        hint:  `Alimony is money paid by one spouse to the other after a divorce`,
       },
-      'otherIncome_v1': {
-        label: `Otros ingresos`,
-        hint:  `Por favor sume ingreso puede haber ganado desde otros fuentes que no fueron listados anteriormente`,
+      'otherIncome_v0': {
+        label: `Other income`,
+        hint:  `Please note income you may have from sources that are not listed above`,
       },
     },
 
